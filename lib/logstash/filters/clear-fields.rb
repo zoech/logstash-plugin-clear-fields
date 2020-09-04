@@ -17,7 +17,7 @@ class LogStash::Filters::ClearFields < LogStash::Filters::Base
   #   }
   # }
   #
-  config_name "clear-fields"
+  config_name "clear_fields"
   
   # config
   config :remain_fields, :validate => :array, :default => ["@timestamp", "[@timestamp]"]
